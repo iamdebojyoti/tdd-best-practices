@@ -44,7 +44,6 @@ class CashTest {
         var result = cash.minus(6);
         //Assert
         assertFalse(result);
-        assertEquals(1, cash.total());
     }
 
     @Test
